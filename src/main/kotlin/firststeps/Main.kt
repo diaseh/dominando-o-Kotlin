@@ -7,16 +7,20 @@ package firststeps
  * informações (use string template para montar a frase).
  */
 fun main() {
-    val nome = "Digite seu nome: "
-    val idade = "Digite sua idade: "
-    val peso = "Digite o seu peso: "
+//    print("> ")
+//    val n1 = readln().nex
+//
+//    print("> ")
+//    val n2 = readln()
+//
+//    println("Resultado ${n1 + n2}")
 
-    print(nome)
-    val rnome = readln()
-    print(idade)
-    val ridade = readln()
-    print(peso)
-    val rpeso = readln()
+    print("Digite seu nome: ")
+    val nome = readln()
+    print("Digite sua idade: ")
+    val idade = readln()
+    print("Digite o seu peso: ")
+    val weith = readln().toDouble()
 
-    println("Nome é $rnome com idade $ridade e com peso de $rpeso")
+    println("Nome é $nome com idade $idade e com peso de $weith")
 }
