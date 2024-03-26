@@ -1,26 +1,46 @@
-package firststeps
-
 /**
- * Exercicio
+ * Exercicio 2
  * ------------------
- * Solicite 3 informações ao usuário: nome, idade e pedo. Depois imprima uma frase que contenha essas
- * informações (use string template para montar a frase).
+ * Crie um programa que arredonda um valor decimal informado pelo usuário e mostra
+ * a resposta na tela.
+ * O arredondamento pode ser feito truncado as casas decimais
  */
+
 fun main() {
-//    print("> ")
-//    val n1 = readln().nex
-//
-//    print("> ")
-//    val n2 = readln()
-//
-//    println("Resultado ${n1 + n2}")
-
-    print("Digite seu nome: ")
-    val nome = readln()
-    print("Digite sua idade: ")
-    val idade = readln()
-    print("Digite o seu peso: ")
-    val weith = readln().toDouble()
-
-    println("Nome é $nome com idade $idade e com peso de $weith")
+    println("Escreva sua Idade")
+    val idade = readln().toInt()
+    if (idade <= 12) {
+        println("Criança")
+    } else if (idade <= 17) {
+        println("Adolecente")
+    } else if (idade <= 65) {
+        println("Adulto")
+    } else if (idade <= 120)
+        {
+            println("Senior")
+        } else {
+        println("Fora de Classificação")
+    }
 }
+
+// val exp = !(2 * 4 >= 16 / 2 && 5 == 4+1)
+//
+// println(exp)
+// if (exp == false) {
+//    println("Calculo Correto")
+// } else {
+//    println("Refazer")
+// }
+// !(2 * 4 >= 16 / 2 && 5 == 4+1)
+// !(8 >= 16 / 2 && 5 == 5)
+// !( T && T)
+//    F
+
+// // Solução 1
+// print("Informe um valor decimal para arrendondamento: ")
+// val nd = readln().toDouble()
+// println("O valor arredondado é ${nd.toInt()}")
+//
+// // Solução 2
+// print("Informe um valor decimal para arrendondamento: ")
+// println(readln().toDouble().toInt())
