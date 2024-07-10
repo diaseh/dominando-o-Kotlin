@@ -15,4 +15,11 @@ fun main(){
 
     x /= 3 // x = x/3
     println(x)
+
+    x++ // x = x + 1
+    println(x)
+
+    x-- // x = x - 1
+    print(x)
+
 }

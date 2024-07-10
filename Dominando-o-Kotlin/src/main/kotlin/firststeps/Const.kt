@@ -10,7 +10,6 @@ faz a chamada ele ganha em desempenho quando utilizado o const
  */
 fun main(){
 
-
     println(msg)
     println(x)
 }
